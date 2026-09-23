@@ -63,5 +63,14 @@ lib/localOverrides.js       → keeps add/edit/delete visible since DummyJSON do
 - [x] Stale search responses can't overwrite newer ones (AbortController cancels in-flight requests)
 - [x] Bad URL values (`?page=abc`, `?page=999`) are clamped instead of breaking the page
 - [x] Login and Save buttons are disabled while a request is in flight, to stop duplicate submits
+  
+- [ ]  ## Live Demo
+
+**Vercel:** https://product-admin-dashboard-ebon-nine.vercel.app/
+
+## AI Usage
+
+AI tools were used during development for guidance, debugging assistance, and reviewing implementation approaches. The project code was tested and verified locally and after deployment.
+
 
 See `NOTES.md` for the reasoning behind a few specific decisions.
